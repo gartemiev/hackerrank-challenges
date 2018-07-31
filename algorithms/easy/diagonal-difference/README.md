@@ -56,3 +56,5 @@ The secondary diagonal is:
 
 Sum across the secondary diagonal: 4 + 5 + 10 = 19
 Difference: |4 - 19| = 15
+
+Note: |x| is the absolute value of x
