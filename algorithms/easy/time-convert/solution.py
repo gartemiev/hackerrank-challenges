@@ -11,14 +11,9 @@ def timeConversion(s):
 
     return s
 
-
 #With strptime
 from datetime import datetime
 
-
-s = '07:05:45AM'
 def timeConversion2(s):
     s = datetime.strptime(s, '%I:%M:%S%p')
     print(s.strftime('%H:%M:%S'))
-
-print(timeConversion2(s))
